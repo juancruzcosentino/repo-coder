@@ -189,7 +189,7 @@ main img {
     justify-content: space-between;
     align-items: flex-start;
     padding: 30px 60px;
-    background-image: url(./images/backgroundnav.jpg);    
+    background-image: url(../images/backgroundnav.jpg);    
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 25%;
