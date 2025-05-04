@@ -97,7 +97,7 @@ main img {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
-    background-image: url(../images/backgroundnav.jpg);    
+    background-image: url(.../images/backgroundnav.jpg);    
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 30%;   
