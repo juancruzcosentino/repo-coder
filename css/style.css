@@ -189,7 +189,8 @@ main img {
     justify-content: space-between;
     align-items: flex-start;
     padding: 30px 60px;
-    background-image: url(../images/backgroundnav.jpg);    
+    background-image: url(../images/backgroundnav.jpg);  
+    background-position-y: 30%;   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
