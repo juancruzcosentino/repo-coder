@@ -191,12 +191,13 @@ main img {
     padding: 30px 60px;
     background-image: url(../images/backgroundnav.jpg);    
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 25%;
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
     margin-top: 40px;
     font-size: 13px;
     border-top: 1px solid #ddd;
-  }
+}
   
   
   footer ul {
