@@ -232,7 +232,7 @@ main img {
   }
 
   .slider {
-    width: 800px;
+    width: 400px;
     height: 400px;
     overflow: hidden;
     margin: 40px auto;
@@ -262,7 +262,7 @@ main img {
 
   /* SERVICIOS */
 
-  #servicios .hero-slider {
+  /* #servicios .hero-slider {
     background-color: #333;
     height: 300px;
     display: flex;
@@ -271,7 +271,8 @@ main img {
     color: white;
     font-size: 20px;
     margin-top: 20px;
-  }
+  } */
+
   
   #servicios .armatuviaje {
     background-color: #fff;
@@ -283,9 +284,8 @@ main img {
   
   #servicios .form-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    margin-top: 20px;
   }
   
   #servicios .form-grid div {
@@ -313,9 +313,8 @@ main img {
   
   #servicios .paquetes-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    margin-top: 30px;
   }
   
   #servicios .card-paq {
