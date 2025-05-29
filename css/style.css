@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #servicios .paquetes .paquetes-grid .card-paq, .slider {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -7,6 +8,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+* p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -80,7 +86,7 @@ main .lugares .aside {
 }
 main section p {
   margin: 15px 0;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .Testimons h2 {
@@ -205,32 +211,37 @@ footer #avion {
 #servicios .paquetes .paquetes-grid .card-paq {
   background-color: white;
   padding: 15px;
+  font-size: 1rem;
 }
 #servicios .paquetes .thumb {
   width: 100%;
   height: 150px;
+  background-size: 100%;
   border-radius: 8px;
 }
 #servicios .paquetes .thumb.red {
-  background: #e74c3c;
+  background-image: url(../images/paquete-argentina.jpeg);
 }
 #servicios .paquetes .thumb.green {
-  background: #27ae60;
+  background-image: url(../images/paquete-brasil.jpeg);
 }
 #servicios .paquetes .thumb.blue {
-  background: #2980b9;
+  background-image: url(../images/paquete-cancun.jpeg);
 }
 #servicios .paquetes .thumb.pink {
-  background: #e91e63;
+  background-image: url(../images/paquete-italia.jpeg);
 }
 #servicios .paquetes .thumb.yellow {
-  background: #f1c40f;
+  background-image: url(../images/paquete-españa.jpeg);
 }
 #servicios .paquetes .thumb.cyan {
-  background: #00bcd4;
+  background-image: url(../images/paquete-londres.jpeg);
 }
 #servicios .paquetes .thumb.brown {
-  background: #795548;
+  background-image: url(../images/paquete-paris.jpeg);
+}
+#servicios .paquetes .thumb.black {
+  background-image: url(../images/paquete-alemania.jpeg);
 }
 
 #destinos .destinos-container {
